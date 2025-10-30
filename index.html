@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"> <!-- Soporte para caracteres especiales -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adaptación a celulares -->
+  <title>Clima App</title>
+  <link rel="stylesheet" href="style.css"> <!-- Conecta los estilos -->
+</head>
+<body>
+  <div class="container">
+    <h1>Consulta el clima </h1>
+
+    <!-- Formulario para buscar ciudad -->
+    <form id="formClima">
+      <input type="text" id="ciudad" placeholder="Ingresa una ciudad" required>
+      <button type="submit">Buscar</button>
+    </form>
+
+    <!-- Botón para limpiar resultados -->
+    <button id="limpiar"> Limpiar resultados</button>
+
+    <!-- Contenedor donde aparecerán las ciudades -->
+    <div id="resultado" class="resultado"></div>
+  </div>
+
+  <!-- Archivo con la lógica JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
